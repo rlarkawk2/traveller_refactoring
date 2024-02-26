@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/* 기본 스타일 */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 페이지 메인 스타일 */
+.page-main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .page-main {
+    width: 90%;
+  }
+}
+
+/* 콘텐츠 메인 */
+.content-main {
+  margin: 0 auto;
+  width: 60%;
+}
+
+/* 헤더 */
+.content-main h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* 상세 정보 */
+.detail-info {
+  list-style: none;
+  padding: 0;
+}
+
+.detail-info li {
+  margin-bottom: 5px;
+}
+
+/* 콘텐츠 */
+.content-main p {
+  line-height: 1.6;
+}
+
+/* 버튼 */
+input[type='button'],
+#resecond input[type='submit'] {
+  padding: 6px 12px;
+  margin: 3px;
+  cursor: pointer;
+  background-color: #808080;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* 댓글 폼 */
+.rep-content {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+/* 푸터 */
+.detail-sub {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* 이미지 */
+.my-photo {
+  border-radius: 50%;
+}
+
+.detail-img {
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 350px;
+  height: auto;
+}
+
+/* 페이지네이션 */
+.paging-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* 댓글 폼 스타일 */
+.rep-content {
+  display: flex;
+  align-items: center;
+}
+
+#re_form textarea {
+  flex: 1;
+  max-width: calc(40% - 5px);
+}
+
+#re_first,
+#resecond {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* 추가 스타일 */
+.detail-sub {
+  margin-top: 20px;
+}
+
+/* 댓글과 입력칸 간격 */
+#reply_div {
+  margin-top: 20px;
+}
+
+/* 댓글 입력칸 간격 */
+#re_form {
+  margin-top: 10px;
+}
+
+.detail-sub li {
+  margin-bottom: 10px;
+}

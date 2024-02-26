@@ -1,0 +1,112 @@
+@charset "UTF-8";
+.tab_cont .on {
+	display:block;
+}
+.tab_cont{
+	margin-top: 2.4rem;
+}
+.form_wrap+.form_wrap, .form_wrap li+li {
+    margin-top: 1.6rem;
+}
+.inner_cont {
+    padding: 0 2.6rem!important;
+}
+ul {
+    list-style: none;
+}
+.mt28 {
+    margin-top: 2.8rem!important;
+}
+.text_wrap .tit{
+	font-size: 2.4rem;
+	line-height: 1.21;
+	letter-spacing: -.144rem;
+	color: black;
+}
+.text_wrap .txt{  
+    font-size: 1.3rem;
+    line-height: 1.38;
+    letter-spacing: -.078rem;
+    color: #111;
+    margin-top: 1.6rem;
+}
+.grey_box.big{
+    padding: 3rem!important;
+    border-radius: 1.2rem;
+    margin: 4.4rem 2.6rem 0;
+}
+.grey_box{
+	background: #f5f5f5;
+}
+.list_line li{
+	position: relative;
+    font-size: 1.4rem;
+    line-height: 2;
+    letter-spacing: -.028rem;
+    color: black;
+}
+.list_line li:last-of-type {
+    padding-bottom: 0;
+}
+.grey_box .list_line li{
+    padding: .8rem 0;
+    text-align: center;
+}
+.list_line li {
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 2;
+    letter-spacing: -.028rem;
+    color: #111;
+}
+.login_wrap .bottom_wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 -5px 15px 0 rgba(17,17,17,.1);
+    padding: 1.6rem 2.6rem;
+}
+.login_wrap .bottom_wrap .btn_wrap {
+    padding: 0;
+    margin: 0;
+}
+.btn_wrap.btn_wrap {
+    justify-content: center;
+}
+.btn_wrap {
+    display: flex;
+    border: none;
+    text-align: center;
+    padding: 0 2.6rem;
+    margin-top: 3.2rem;
+}
+
+.btn.em {
+    background-color: #5e2bb8!important;
+    color: #fff!important;
+    border-color: #5e2bb8;
+}
+
+.btn {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    height: 4rem;
+    line-height: .62;
+    font-size: 1.3rem;
+    letter-spacing: -.052rem;
+    margin: 0;
+    padding-top: 0;
+    border-radius: 2.5rem;
+    transition: none;
+    text-transform: none;
+    box-shadow: none;
+    color: #111;
+    cursor: pointer;
+}
